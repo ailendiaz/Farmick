@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Proyecto_Farmick" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Proyecto_Farmick" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="Motor" />
+					<Add directory="Objetos" />
+					<Add directory="cultivo_maquinaEstados" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Proyecto_Farmick" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="Motor" />
+					<Add directory="Objetos" />
+					<Add directory="cultivo_maquinaEstados" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Jugador.cpp" />
+		<Unit filename="Jugador.h" />
+		<Unit filename="Motor/GamePlay.cpp" />
+		<Unit filename="Motor/GamePlay.h" />
+		<Unit filename="Motor/GestorEventos.cpp" />
+		<Unit filename="Motor/GestorEventos.h" />
+		<Unit filename="Motor/Motor.cpp" />
+		<Unit filename="Motor/Motor.h" />
+		<Unit filename="Motor/Timer.cpp" />
+		<Unit filename="Motor/Timer.h" />
+		<Unit filename="Motor/gestorTexturas.cpp" />
+		<Unit filename="Motor/gestorTexturas.h" />
+		<Unit filename="Objetos/Imagen.cpp" />
+		<Unit filename="Objetos/Imagen.h" />
+		<Unit filename="Objetos/Mercado.cpp" />
+		<Unit filename="Objetos/Mercado.h" />
+		<Unit filename="Objetos/Objeto.h" />
+		<Unit filename="Objetos/ObjetoDelJuego.h" />
+		<Unit filename="cultivo_maquinaEstados/Cultivo.cpp" />
+		<Unit filename="cultivo_maquinaEstados/Cultivo.h" />
+		<Unit filename="cultivo_maquinaEstados/Estado_Cultivo.h" />
+		<Unit filename="cultivo_maquinaEstados/Estado_Cultivo_Arado.cpp" />
+		<Unit filename="cultivo_maquinaEstados/Estado_Cultivo_Arado.h" />
+		<Unit filename="cultivo_maquinaEstados/Estado_Cultivo_Crecido.cpp" />
+		<Unit filename="cultivo_maquinaEstados/Estado_Cultivo_Crecido.h" />
+		<Unit filename="cultivo_maquinaEstados/Estado_Cultivo_Sembrado.cpp" />
+		<Unit filename="cultivo_maquinaEstados/Estado_Cultivo_Sembrado.h" />
+		<Unit filename="cultivo_maquinaEstados/Estado_Cultivo_Terreno.cpp" />
+		<Unit filename="cultivo_maquinaEstados/Estado_Cultivo_Terreno.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

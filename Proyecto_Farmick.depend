@@ -1,0 +1,139 @@
+# depslib dependency file v1.0
+1593631486 source:c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\cultivo_maquinaestados\estado_cultivo_arado.cpp
+	<iostream>
+	"Estado_Cultivo_Sembrado.h"
+	"Estado_Cultivo_Arado.h"
+	"../Motor/gestorTexturas.h"
+	"../Jugador.h"
+	"../Motor/GamePlay.h"
+
+1593452663 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\cultivo_maquinaestados\estado_cultivo_terreno.h
+	"Cultivo.h"
+	"Estado_Cultivo.h"
+
+1593452663 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\cultivo_maquinaestados\cultivo.h
+	"Estado_Cultivo.h"
+	"../Motor/Motor.h"
+	"cstring"
+	<iostream>
+
+1593452663 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\cultivo_maquinaestados\estado_cultivo.h
+
+1593452663 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\cultivo_maquinaestados\estado_cultivo_arado.h
+	"Cultivo.h"
+
+1593452663 source:c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\main.cpp
+	"Motor.h"
+	"cultivo_maquinaEstados/Cultivo.h"
+	"Timer.h"
+
+1593631486 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\motor\motor.h
+	"SDL.h"
+	"SDL_image.h"
+	"../cultivo_maquinaEstados/Cultivo.h"
+	"SDL_ttf.h"
+	<map>
+
+1593631486 source:c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\motor\gestortexturas.cpp
+	"gestorTexturas.h"
+	"Motor.h"
+
+1593452663 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\motor\gestortexturas.h
+	<string>
+	"SDL.h"
+	<map>
+
+1591810090 source:c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\cultivo_maquinaestados\estado_cultivo.cpp
+
+1593631486 source:c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\cultivo_maquinaestados\cultivo.cpp
+	"Cultivo.h"
+	"Estado_Cultivo_Terreno.h"
+	"../Motor/Motor.h"
+
+1593631486 source:c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\motor\motor.cpp
+	"Motor.h"
+	"gestorTexturas.h"
+	"../Jugador.h"
+	"GestorEventos.h"
+	"GamePlay.h"
+	"Timer.h"
+	"../Objetos/Mercado.h"
+	<math.h>
+	<string>
+
+1593631486 source:c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\cultivo_maquinaestados\estado_cultivo_terreno.cpp
+	<iostream>
+	"Estado_Cultivo_Terreno.h"
+	"Estado_Cultivo_Arado.h"
+	"gestorTexturas.h"
+	"../Motor/GamePlay.h"
+
+1593452663 source:c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\jugador.cpp
+	"Jugador.h"
+
+1593452663 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\jugador.h
+
+1592494387 source:c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\objetos\imagen.cpp
+	"Imagen.h"
+
+1592494387 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\objetos\imagen.h
+	<ObjetoDelJuego.h>
+
+1592494828 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\objetos\objetodeljuego.h
+	"Objeto.h"
+	<string>
+
+1592494387 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\objetos\objeto.h
+
+1593631486 source:c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\motor\gestoreventos.cpp
+	"GestorEventos.h"
+	"gestorTexturas.h"
+	"../Jugador.h"
+	"SDL.h"
+	"Motor.h"
+	"GamePlay.h"
+
+1592663877 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\motor\gestoreventos.h
+	<string>
+
+1593631486 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\motor\gameplay.h
+	<iostream>
+
+1593452663 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\cultivo_maquinaestados\estado_cultivo_sembrado.h
+	"Cultivo.h"
+
+1593631486 source:c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\motor\gameplay.cpp
+	"GamePlay.h"
+	"../cultivo_maquinaEstados/Cultivo.h"
+	"GestorEventos.h"
+	<math.h>
+
+1593631486 source:c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\cultivo_maquinaestados\estado_cultivo_crecido.cpp
+	"Estado_Cultivo_Crecido.h"
+	"Estado_Cultivo_Terreno.h"
+	"../Motor/gestorTexturas.h"
+	"../Jugador.h"
+	"../Motor/GamePlay.h"
+	"Timer.h"
+
+1593452663 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\cultivo_maquinaestados\estado_cultivo_crecido.h
+	"Cultivo.h"
+
+1593631486 source:c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\cultivo_maquinaestados\estado_cultivo_sembrado.cpp
+	"Estado_Cultivo_Crecido.h"
+	"Estado_Cultivo_Sembrado.h"
+	"../Motor/gestorTexturas.h"
+	"Timer.h"
+
+1593452663 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\motor\timer.h
+
+1593452663 source:c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\motor\timer.cpp
+	"Timer.h"
+	"SDL.h"
+
+1593452663 source:c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\objetos\mercado.cpp
+	"Mercado.h"
+	"gestorTexturas.h"
+
+1593452663 c:\users\ailen\onedrive\desktop\farmick\proyecto_farmick\objetos\mercado.h
+
